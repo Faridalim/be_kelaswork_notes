@@ -56,3 +56,7 @@ git branch -d [branchName]
 // menggabungkan branch
 -> login ke branch master lalu :
 git merge [branchName]
+
+// cara merge branch di github
+1. klik : compare and pull request -> utk membuat pull request
+2. klik : merge pull request -> utk merge
