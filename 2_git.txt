@@ -19,8 +19,18 @@ git status
 
 // icon VS Code
 U = Untracked
+M = Modified
 
-// menambahkan files ke commit
+// menambahkan files ke index commit
 git add index.html
 git add .
 
+// membuat commit
+git commit -m "catatan"
+
+// mengupload ke github
+1. membuat new repo di github
+2. di lokal dir :
+git remote add origin https://github.com/Faridalim/be_kelaswork_notes.git
+git remote -v // cek status origin
+git push -u origin master
