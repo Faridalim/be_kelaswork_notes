@@ -1,4 +1,4 @@
-// install GIT
+// ========== install GIT
 download dari git-scm.com
 
 // cek
@@ -11,7 +11,7 @@ git config --global user.email "owner.xmedia@gmail.com"
 // cek konfig
 git config --list
 
-// create git repo
+// ========== create git repo
 git init
 
 // cek git status
@@ -28,9 +28,31 @@ git add .
 // membuat commit
 git commit -m "catatan"
 
-// mengupload ke github
+// =================  mengupload ke github
 1. membuat new repo di github
 2. di lokal dir :
-git remote add origin https://github.com/Faridalim/be_kelaswork_notes.git
+3. git remote add origin https://github.com/Faridalim/be_kelaswork_notes.git
 git remote -v // cek status origin
-git push -u origin master
+4. git push -u origin master // utk upload pertama
+git push origin master // utk upload selanjutnya
+
+// =========== Git Branch
+- memungkinkan pengembangan fitur tanpa mengganggu pengembangan di branch utama
+- memungkinkan pembuatan branch berbeda yang dapat terpusat di satu repository
+
+// git branch
+list semua branch
+
+// membuat branch baru
+git branch [newBranchName]
+
+// berpindah ke branch tertentu
+git checkout [branchName]
+git checkout -b login // pindah + membuat repo baru
+
+// menghapus branch
+git branch -d [branchName]
+
+// menggabungkan branch
+-> login ke branch master lalu :
+git merge [branchName]
