@@ -1,0 +1,37 @@
+// current directory
+pwd
+
+// list items in current directory
+ls
+
+//  list file + file tersembunyi
+ls -a
+
+// list file dg permission, owner dan kapan dibuat
+ls -l
+
+// list + ukuran file
+ls -lh
+
+// pindah direktori/folder
+cd dalam
+cd ../first_app
+cd ../..
+
+// membuat directory
+mkdir folderName
+
+// membuat file
+touch fileName.txt
+
+// copy folder
+cp -r originFolder destFolder
+
+// memindahkan file/folder
+mv readme.txt folderName
+
+// menghapus folder
+rm namaFile
+rm -r namaFolder
+rm -rf namaFolder
+

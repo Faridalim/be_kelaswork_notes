@@ -1,0 +1,26 @@
+// install GIT
+download dari git-scm.com
+
+// cek
+git version
+
+// konfig username & password
+git config --global user.name "faridalim"
+git config --global user.email "owner.xmedia@gmail.com"
+
+// cek konfig
+git config --list
+
+// create git repo
+git init
+
+// cek git status
+git status
+
+// icon VS Code
+U = Untracked
+
+// menambahkan files ke commit
+git add index.html
+git add .
+
